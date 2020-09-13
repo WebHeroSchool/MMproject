@@ -109,10 +109,12 @@ border-radius:4px;
 margin-top: 40px;
 text-decoration: none;
 padding: 14px 16px;
-transition: opacity: .5s
+transition: opacity: .5s;
+transition: background-color 1000ms;
 }
 .main__button:hover {
-  opacity: .5
+  opacity: .5;
+background-color: #D40FA9;
 }
 .main__title-text-highlight {
 background-color:#ECF3FF
