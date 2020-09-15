@@ -2,38 +2,49 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,inicial-scale=1">
   <title>Мой первый сайт</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=PT+Serif+Caption&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link href="fonts.css" rel="stylesheet">
 </head>
 <body>
+  <div class="burger-menu">
+    <a href="#" class="burger-menu__button"></a>
+    <span class="burger-menu__line"></span>
+    <nav class="burger-menu__nav">
+      <a href="section-1" class="burger-menu__link">start</a>
+      <a href="section-2" class="burger-menu__link">services</a>
+      <a href="section-3" class="burger-menu__link">about</a>
+      <a href="section-4" class="burger-menu__link">blog</a>
+      <a href="section-5" class="burger-menu__link">contact us</a>
+    </nav>
+  </div>
   <div class="wrapper">
   <header class="header">
     <div class="logo">
       <div class="logo__circle logo__circle_color_dark-blue"></div>
       <div class="logo__circle logo__circle_color_blue"></div>
       app.creation</div>
+      <div class="mobile-logo">
+        <div class="logo__circle logo__circle_color_dark-blue"></div>
+        <div class="logo__circle logo__circle_color_blue"></div>
+        </div>
       <nav class="menu">
       <a class="menu__item" href="#">start</a>
-      <a class="menu__item" href="#">service</a>
+      <a class="menu__item menu__item_active" href="#">services</a>
       <a class="menu__item" href="#">about</a>
       <a class="menu__item" href="#">blog</a>
       <a class="menu__item" href="#">contact us</a>
     </nav>
     </header>
-  <section class="main-section">
-    <main class="main-content">
-      <h1 class="main-content__title">Building an App
-      <span>Without Design</span>
-      <span>Expertise?</span></1h>
-      <p class="main-content__description">I help tech startups design better digital</p>
-      <p class="main-content__description">products without hiring a full-time designer</p>
-      <button class="main-content__button">Schedule free consultation</button>
-    </main>
-    <div class="image-content">
-      <img class="image-content__image" src="C:/education/MMproject/Frame (1).svg"alt="11">
-    </div>
+  <section class="main">
+      <h1 class="main__title">Building an App
+      <span class="main__title-text-highlight">Without Design</span>
+      <span class="main__title-text-highlight">Expertise?</span></h1>
+      <p class="main__description">I help tech startups design better digital
+      products without hiring a&nbsp;full-time designer</p>
+      <a class="main__button" href="#">Schedule free consultation</a>
   </section>
 </div>
 </body>
